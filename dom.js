@@ -1,3 +1,12 @@
+const btn = document.querySelector('#btn');
+btn.onclick = () => alert("Hi World");
+
+const btn3 = document.querySelector('#btn3');
+btn3.addEventListener('click', function(e) {
+    e.target.style.background = 'blue';
+});
+
+
 const container = document.querySelector('#container');
 
 const paragraph = document.createElement('p');
